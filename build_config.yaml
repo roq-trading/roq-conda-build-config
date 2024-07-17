@@ -14,7 +14,7 @@ target_platform:
   - linux-64             # [linux]
 
 c_compiler_version:
-  - '>=13,<14'           # [linux]
+  - '>=14,<15'           # [linux]
   - '>=18,<19'           # [osx]
 
 cxx_compiler_version:
