@@ -22,7 +22,7 @@ cxx_compiler_version:
   - '>=18,<19'           # [osx]
 
 clangdev:
-  - '>=18';
+  - '>=18,<19'
 
 clangxx:
   - '>=18,<19'
