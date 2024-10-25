@@ -21,6 +21,9 @@ cxx_compiler_version:
   - '>=14,<15'           # [linux]
   - '>=19,<20'           # [osx]
 
+clang-format:
+  - '>=19,<20'
+
 clangdev:
   - '>=19,<20'
 
