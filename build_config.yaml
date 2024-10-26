@@ -24,9 +24,6 @@ cxx_compiler_version:
 clang_format:
   - '>=19,<20'
 
-clangdev:
-  - '>=19,<20'
-
 clangxx:
   - '>=19,<20'
 
@@ -42,10 +39,4 @@ fmt:
   - '>=11.0'
 
 openssl:
-  - '>=3.2'
-
-# libcurl:
-#  - '>=8.8,<8.9'
-
-# zlib:
-#   - '>=1.2,<1.3'         # [osx]
+  - '>=3.3'
