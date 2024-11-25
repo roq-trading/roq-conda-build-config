@@ -1,5 +1,4 @@
 target_platform:                                                                                                        
-  - linux-aarch64        # [linux]
   - linux-64             # [linux]
 
 fmt:
