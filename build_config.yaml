@@ -15,20 +15,20 @@ target_platform:
 
 c_compiler_version:
   - '>=14,<15'           # [linux]
-  - '>=19,<20'           # [osx]
+  - '>=20,<21'           # [osx]
 
 cxx_compiler_version:
   - '>=14,<15'           # [linux]
-  - '>=19,<20'           # [osx]
+  - '>=20,<21'           # [osx]
 
 clang_format:
-  - '>=19,<20'
+  - '>=20,<21'
 
 clangxx:
-  - '>=19,<20'
+  - '>=20,<21'
 
 libclang:
-  - '>=19,<20'
+  - '>=20,<21'
 
 python:
   - 3.11
