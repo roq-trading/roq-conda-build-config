@@ -14,11 +14,11 @@ target_platform:
   - linux-64             # [linux]
 
 c_compiler_version:
-  - '>=14,<15'           # [linux]
+  - '>=15,<16'           # [linux]
   - '>=20,<21'           # [osx]
 
 cxx_compiler_version:
-  - '>=14,<15'           # [linux]
+  - '>=15,<16'           # [linux]
   - '>=20,<21'           # [osx]
 
 clang_format:
