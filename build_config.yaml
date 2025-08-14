@@ -39,7 +39,9 @@ fmt:
   - '>=11.2'
 
 openssl:
-  - '>=3.4'
+  - '>=3.5'
 
+# note!
+#   https://github.com/conda-forge/arrow-cpp-feedstock/issues/1777#issuecomment-2978886239
 libabseil:
   - '>=20250101,<20250501'
