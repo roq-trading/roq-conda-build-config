@@ -15,20 +15,20 @@ target_platform:
 
 c_compiler_version:
   - '>=15,<16'           # [linux]
-  - '>=20,<21'           # [osx]
+  - '>=21,<22'           # [osx]
 
 cxx_compiler_version:
   - '>=15,<16'           # [linux]
-  - '>=20,<21'           # [osx]
+  - '>=21,<22'           # [osx]
 
 clang_format:
-  - '>=20,<21'
+  - '>=21,<22'
 
 clangxx:
-  - '>=20,<21'
+  - '>=21,<22'
 
 libclang:
-  - '>=20,<21'
+  - '>=21,<22'
 
 python:
   - 3.11
@@ -42,6 +42,7 @@ openssl:
   - '>=3.5'
 
 # note!
+#   https://anaconda.org/conda-forge/libarrow
 #   https://github.com/conda-forge/arrow-cpp-feedstock/issues/1777#issuecomment-2978886239
 libabseil:
-  - '>=20250101,<20250501'
+  - '>=20250512,<20250801'
