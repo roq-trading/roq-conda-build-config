@@ -31,9 +31,9 @@ libclang:
   - '>=21,<22'
 
 python:
-  - 3.11
   - 3.12
   - 3.13
+  - 3.14
 
 fmt:
   - '>=11.2'
@@ -45,4 +45,4 @@ openssl:
 #   https://anaconda.org/conda-forge/libarrow
 #   https://github.com/conda-forge/arrow-cpp-feedstock/issues/1777#issuecomment-2978886239
 libabseil:
-  - '>=20250512,<20250801'
+  - '==20250512.1'  # libgrpc
