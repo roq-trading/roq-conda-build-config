@@ -41,8 +41,11 @@ fmt:
 openssl:
   - '>=3.5'
 
+libprotobuf:
+   - '>=6.33'
+
 # note!
 #   https://anaconda.org/conda-forge/libarrow
 #   https://github.com/conda-forge/arrow-cpp-feedstock/issues/1777#issuecomment-2978886239
 libabseil:
-  - '==20250512.1'  # libgrpc
+   - '>=20250814.1'  # libprotobuf 6.33
