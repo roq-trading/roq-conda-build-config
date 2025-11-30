@@ -2,4 +2,4 @@ target_platform:
   - linux-64             # [linux]
 
 fmt:
-  - '>=11.1'
+  - '>=12.0'
