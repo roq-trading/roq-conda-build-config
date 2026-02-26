@@ -15,20 +15,20 @@ target_platform:
 
 c_compiler_version:
   - '>=15,<16'           # [linux]
-  - '>=21,<22'           # [osx]
+  - '>=22,<23'           # [osx]
 
 cxx_compiler_version:
   - '>=15,<16'           # [linux]
-  - '>=21,<22'           # [osx]
+  - '>=22,<23'           # [osx]
 
 clang_format:
-  - '>=21,<22'
+  - '>=22,<23'
 
 clangxx:
-  - '>=21,<22'
+  - '>=22,<23'
 
 libclang:
-  - '>=21,<22'
+  - '>=22,<23'
 
 python:
   - 3.12
@@ -43,9 +43,3 @@ openssl:
 
 libprotobuf:
    - '>=6.33'
-
-# note!
-#   https://anaconda.org/conda-forge/libarrow
-#   https://github.com/conda-forge/arrow-cpp-feedstock/issues/1777#issuecomment-2978886239
-libabseil:
-   - '>=20250814.1'  # libprotobuf 6.33
