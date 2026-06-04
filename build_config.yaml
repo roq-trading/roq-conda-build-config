@@ -42,3 +42,6 @@ openssl:
 
 libprotobuf:
    - '>=7.35'
+
+libabseil:
+   - '>=20260107.1,<20260108.0a0'  # because of libprotobuf
