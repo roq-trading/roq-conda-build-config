@@ -35,13 +35,13 @@ python:
   - 3.14
 
 fmt:
-  - '>=12.1'
+  - '>=12.2'
 
 openssl:
   - '>=3.6,<4'
 
 libprotobuf:
-   - '>=7.35'
+   - '>=7.35.1'
 
-libabseil:
-   - '>=20260107.1,<20260108.0a0'  # because of libprotobuf
+#libabseil:
+#   - '>=20260107.1,<20260108.0a0'  # because of libprotobuf
