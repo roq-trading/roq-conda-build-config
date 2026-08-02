@@ -15,11 +15,11 @@ target_platform:
   - osx-arm64            # [osx]
 
 c_compiler_version:
-  - '>=15,<16'           # [linux]
+  - '>=16,<17'           # [linux]
   - '>=22,<23'           # [osx]
 
 cxx_compiler_version:
-  - '>=15,<16'           # [linux]
+  - '>=16,<17'           # [linux]
   - '>=22,<23'           # [osx]
 
 clang_format:
