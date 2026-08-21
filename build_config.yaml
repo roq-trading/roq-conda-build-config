@@ -33,7 +33,7 @@ libclang:
 
 python:
   - 3.13
-  - 3.14
+  - 3.14  # [linux]
 
 fmt:
   - '>=12.2'
