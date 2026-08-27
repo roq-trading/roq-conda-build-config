@@ -45,7 +45,7 @@ libprotobuf:
    - '>=7.36'
 
 libabseil:
-   - '>=20260526.0'
+   - '>=20260526.0,<20260817.0'  # due to libprotobuf 7.36
 
 cli11:
    - '==2.7.1'  # 2.7.2 fails to link on macos
