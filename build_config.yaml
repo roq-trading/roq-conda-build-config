@@ -9,10 +9,10 @@ MACOSX_DEPLOYMENT_TARGET:
 
 target_platform:                                                                                                        
   - linux-64             # [linux]
-  - linux-aarch64        # [linux]
+  # - linux-aarch64      # [linux]
   # - linux-riscv64      # [linux]
   - osx-64               # [osx]
-  - osx-arm64            # [osx]
+  # - osx-arm64          # [osx]
 
 c_compiler_version:
   - '>=16,<17'           # [linux]
@@ -39,10 +39,7 @@ fmt:
   - '>=12.2'
 
 openssl:
-  - '>=4.0'
-
-libprotobuf:
-   - '>=7.36'
+  - '>=3.6,<4.0'
 
 libabseil:
    - '>=20260526.0,<20260817.0'  # due to libprotobuf 7.36
