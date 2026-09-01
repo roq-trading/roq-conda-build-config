@@ -9,7 +9,7 @@ MACOSX_DEPLOYMENT_TARGET:
 
 target_platform:                                                                                                        
   - linux-64             # [linux]
-  # - linux-aarch64      # [linux]
+  - linux-aarch64        # [linux]
   # - linux-riscv64      # [linux]
   # - osx-64             # [osx]
   - osx-arm64            # [osx]
@@ -42,7 +42,8 @@ openssl:
   - '>=3.6,<4.0'
 
 libabseil:
-   - '>=20260526.0,<20260817.0'  # due to libprotobuf 7.36
+  - '>=20260526.0,<20260817.0'  # due to libprotobuf 7.36
+  # - '>=20260817.0,<20260901.0'
 
 cli11:
-   - '==2.7.1'  # 2.7.2 fails to link on macos
+  - '==2.7.1'  # 2.7.2 fails to link on macos
